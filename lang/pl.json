@@ -1,0 +1,69 @@
+{
+  "TYPES": {
+    "Actor": {
+      "character": "Badacz",
+      "npc": "NPC"
+    },
+    "Item.item": "Przedmiot"
+  },
+  "CTHULHUDARK": {
+    "Add": "Add",
+    "Insight": "Głębia",
+    "ActorName": "Imię",
+    "OccupationName": "Zawód",
+    "InvestigateBtn": "Śledztwo",
+    "OtherActionsBtn": "Akcja",
+    "InsightRollBtn": "Spójrz w Głebie",
+    "FailureRollBtn": "Przeszkodź",
+    "LooksNpcInput": "Wygląd",
+    "BehaviorsNpcInput": "Zachowania",
+    "MotivationsNpcInput": "Motywacje",
+
+    "RulesTab": "Zasady",
+    "NotesTab": "Notatki",
+
+    "FailureRuleTitle": "Przeszkadzanie:",
+    "FailureRuleText": "Nie może być użyte na rzutach na dochodzenie lub jeśli sukces jest wymagany dla scenariusza.",
+    "TryingAgainRuleTitle": "Forsowanie:",
+    "TryingAgainRuleText": "Jeśli rzut zawierał kość Głębi, możesz przerzucić ją ponownie. Każde ponowne przerzucenie może zwiększyć Głębia. Przerzucaj tyle razy, ile chcesz.",
+    "CooperateRuleTitle": "Współpraca:",
+    "CooperateRuleText": "Zachowaj najwyższą kość wyrzuconą przez kogokolwiek.",
+    "CompeteRuleTitle": "Rywalizacja:",
+    "CompeteRuleText": "Wygrywa najwyższy wynik.",
+
+    "ItemName": "Nazwa",
+    "ItemDescription": "Opis",
+
+    "InvestigateDialogTitle": "Śledztwo",
+    "InvestigateDialogDesc": "Podczas śledztwa wykonaj rzut:",
+    "DoSomethingElseDialogTitle": "Akcja",
+    "DoSomethingElseDialogDesc": "Kiedy robisz coś innego niż śledztwo, rzuć:",
+    "Roll": "Rzuć!",
+
+    "DialogHumanDie": "Jeśli zadanie jest w zasięgu ludzkich możliwości.",
+    "DialogOccupDie": "Jeśli leży to w zakresie twojej wiedzy zawodowej.",
+    "DialogRiskDie": "Jeśli zaryzykujesz swój umysł, aby odnieść sukces.",
+    "InsightRoll": "Głębiny!",
+
+    "FailureRollContent": "Jeśli twój rzut jest wyższy niż innych <b><i>Badaczy</i></b>, zawodzą, tak jak to opisałeś. Jeśli nie, odniosą sukces jak poprzednio.",
+    "FailureRoll": "<b>Przeszkadzanie</b>:",
+
+    "RiskMoveMessage": "Sytuacja ujawnia pewien horror kryjący się za wszechświatem, wykonaj {insightroll}",
+
+    "InvestigateMaxDieMessage123": "Otrzymujesz absolutne minimum: jeśli potrzebujesz informacji, aby kontynuować scenariusz, otrzymujesz je, ale to wszystko, co dostajesz",
+    "InvestigateMaxDieMessage4": "Otrzymujesz wszystko, co odkryłby kompetentny śledczy.",
+    "InvestigateMaxDieMessage5": "Odkrywasz wszystko, co tylko człowiek jestw w stanie.",
+    "InvestigateMaxDieMessage6": "Odnosisz wspaniałe sukcesy, dostajesz coś ekstra i możesz zajrzeć poza ludzką wiedzę (i prawdopodobnie wykonać {insightroll}).",
+
+    "DoSomethingElseMaxDieMessage123": "Dostajesz absolutne minimum: jeśli coś musi się wydarzyć, by kontynuować scenariusz, to dostajesz to, ale to wszystko.",
+    "DoSomethingElseMaxDieMessage4": "Odnosisz sukces w sposób kompetentny.",
+    "DoSomethingElseMaxDieMessage5": "Odnosisz sukces i możesz dostać coś ekstra.",
+    "DoSomethingElseMaxDieMessage6": "Odnosisz sukces, dostajesz coś ekstra, ale może więcej niż chciałeś, (i prawdopodobnie wykonać {insightroll}).",
+
+    "InsightChatContent4": "Twoja wcześniejsza {insight} wynosiła <b>{previousinsight}</b>. Wyrzuciłeś więcej, więc twoja gębia wynosi <b>{newnsight}</b>. Odegraj swój strach.",
+    "InsightChatContent5": "Twoja wcześniejsza {insight} wynosiła <b>{previousinsight}</b>. Wyrzuciłeś więcej, więc twoja gębia wynosi <b>{newnsight}</b>. Odegraj swój strach. <hr><b><i>Notka:</i></b> Możesz obniżyć {insighttwo} przez zrzeknięcie się wiedzy.",
+    "InsightChatContent6": "Twoja wcześniejsza {insight} wynosiła <b>{previousinsight}</b>. Wyrzuciłeś więcej, więc twoja gębia wynosi <b>{newnsight}</b>. <hr><b><i>Popadasz w nieuleczalne szaleństwo.</i></b> To wyjątkowa chwila: Wszyscy skupiają się na ostatnich chwilach postaci, gdy jej umysł się załamuje. Odejdź w dowolny sposób: walcz, krzycz, uciekaj lub upadnij.",
+
+    "InsightChatContent": "Twoja obecna {insight} jest <b>{previousinsight}</b>. Ledwo trzymasz się w kupie..."
+  }
+}
